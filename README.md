@@ -27,5 +27,6 @@ settings.set('version','0.0.0',function(err){
 
 - **registerModel(Schema,connection[,name="sys"])** - Register settings model
 - **set(key,value[,callback])** - Set value for key. Callback receive `err`
-- **get(key,callback)** - Get settings value. Callback receive `err, value`
+- **get(key,callback)** - Get setting value. Callback receive `err, value`
+- **getObject(keys,callback)** - Get settings values in object. Callback receive `err, obj`
 - **unset(key[,callback])** - Unset key. Callback receive `err`
